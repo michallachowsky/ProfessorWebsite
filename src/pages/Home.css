@@ -29,6 +29,7 @@ video {
   
   .przystojniak:hover{
     cursor: pointer;
+    transform: scale(1.10);
   }
 
  
@@ -172,14 +173,81 @@ video {
       'Lucida Sans', Arial, sans-serif;
   }
   
+  @media screen and (max-width: 1350px) {
+    .kartka{
+      width: 1100px;
+    height: 450px;
+    }
+    .przystojniak{
+      height: 250px;
+      width: 200px;
+      margin-left: 100px;
+    }
+
+    .description > h2 {
+      font-size: 17px;
+      width: 500px;
+      height: 150px;
+      margin-left: 80px;
+    }
+
+    .sub1,.sub2,.sub3{
+      margin-left: 10px;
+      background-color: rgba(14, 13, 13, 0.603);
+      padding: 10px;
+      border-radius: 8px;
+      font-size:17px;
+    }
+
+    .link{
+      margin-top:-20px;
+      font-size: 20px;
+     margin-left: 175px;
+     margin-right: 200px;
+    }
+  }
   
   
 
-  @media screen and (max-width: 1180px) {
+  @media screen and (max-width: 1230px) {
     .hero-container > h1 {
       font-size: 70px;
       margin-top: 20px;
       text-align: center;
+    }
+
+    .kartka{
+      margin-left: 50px;
+      width: 800px;
+      height: 350px;
+    }
+    .przystojniak{
+      
+      height: 250px;
+      width: 200px;
+      margin-left: 100px;
+    }
+
+    .description > h2 {
+      font-size: 15px;
+      width: 400px;
+      height: 150px;
+      margin-left: 80px;
+    }
+
+    .sub1,.sub2,.sub3{
+      margin-left: 10px;
+      background-color: rgba(14, 13, 13, 0.603);
+      padding: 10px;
+      border-radius: 8px;
+      font-size:12px;
+    }
+
+    .link{
+      margin-top:-20px;
+      font-size: 15px;
+     margin-left: 175px;
+     margin-right: 200px;
     }
   }
   
@@ -189,9 +257,16 @@ video {
       margin-top: 20px;
       text-align: center;
     }
+
+    .link{
+      margin-top:-20px;
+      font-size: 12px;
+     margin-left: 175px;
+     margin-right: 200px;
+    }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 870px) {
     .hero-container > h1 {
       font-size: 50px;
       margin-top: 20px;
@@ -206,6 +281,97 @@ video {
       display: block;
       text-decoration: none;
       text-align: center;
+    }
+
+    .kartka{
+      margin-left: 50px;
+      width: 600px;
+      height: 400px;
+    }
+    .przystojniak{
+      margin-top: 80px;
+      height: 200px;
+      width: 150px;
+      margin-left: 100px;
+    }
+
+    .description > h2 {
+      font-size: 12px;
+      width: 350px;
+      height: 110px;
+      margin-left: 10px;
+    }
+    .subjects{
+      margin-left: 50px;
+    }
+    .sub1,.sub2,.sub3{
+      margin-left: 10px;
+      background-color: rgba(14, 13, 13, 0.603);
+      padding: 10px;
+      border-radius: 8px;
+      font-size:12px;
+    }
+
+    .link{
+      margin-top:-20px;
+      font-size: 15px;
+     margin-left: 60px;
+     margin-right: 200px;
+    }
+
+  }
+
+  @media screen and (max-width: 660px) {
+    .hero-container > h1 {
+      font-size: 30px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .hero-container > p {
+      font-size: 20px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .kartka{
+      margin-left: 50px;
+      width: 500px;
+      height: 300px;
+    }
+    .przystojniak{
+      margin-top: 40px;
+      height: 170px;
+      width: 120px;
+      margin-left: 60px;
+    }
+
+    .description > h2 {
+      font-size: 10px;
+      width: 300px;
+      height: 90px;
+      margin-left: 30px;
+    }
+    .subjects{
+      margin-left: 50px;
+    }
+    .sub1,.sub2,.sub3{
+      margin-left: 10px;
+      background-color: rgba(14, 13, 13, 0.603);
+      padding: 10px;
+      border-radius: 8px;
+      font-size:10px;
+    }
+
+    .link{
+      margin-top:-20px;
+      font-size: 12px;
+     margin-left: 80px;
+     margin-right: 150px;
     }
 
   }

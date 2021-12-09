@@ -62,3 +62,53 @@
   #cancelBtn {
     background-color: crimson;
   }
+
+  @media screen and (max-width: 1180px) {
+    .modalContainer3 {
+      width: 700px;
+      height: 400px;
+      margin-left: -50px;
+    }
+    .titleCloseBtn3 button {
+      font-size: 20px;
+      
+    }
+
+  }
+
+  @media screen and (max-width: 960px) {
+    .modalContainer3 {
+      width: 600px;
+      height: 400px;
+      margin-left: 0px;
+    }
+
+  }
+
+  @media screen and (max-width: 865px) {
+    .modalContainer3 {
+      width: 550px;
+      height: 400px;
+      margin-left: -100px;
+      margin-top: -200px;
+    }
+
+  }
+
+  @media screen and (max-width: 670px) {
+    .modalContainer3 {
+      width: 450px;
+      height: 300px;
+      margin-left: -50px;
+      margin-top: -200px;
+    }
+    
+    .modalContainer3 .title {
+      font-size: 15px;
+    }
+
+    .modalContainer3 .body {
+      font-size: 14px;
+    }
+
+  }

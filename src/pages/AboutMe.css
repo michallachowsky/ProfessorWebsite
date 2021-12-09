@@ -68,3 +68,128 @@
     color: white;
     margin-left: 80px;
 }
+
+@media screen and (max-width: 1180px) {
+    .hero-container > h1{
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .ekran{
+        margin-top: 120px;
+    }
+
+    .it{
+        margin-top: -20px;
+    }
+
+
+}
+
+@media screen and (max-width: 860px) {
+    .hero-container > h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .ekran{
+        margin-top: 120px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .it{
+        margin-top: 0px;
+    }
+
+    #hobby{
+        height: 50px;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .moreReact > h4{
+        color: white;
+        margin-left: 30px;
+    }
+    
+    .morePython > h4{
+        color: white;
+        margin-left: 30px;
+    }
+    
+    #moreScrapp > h4{
+        color: white;
+        margin-left: 30px;
+    }
+
+    .moreFootball > h4{
+        color: white;
+        margin-left: 30px;
+    }
+    
+    .moreTravel > h4{
+        color: white;
+        margin-left: 30px;
+    }
+    
+    #moreCooking > h4{
+        color: white;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .hero-container > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .ekran{
+        margin-top: 120px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .it{
+        margin-top: 0px;
+    }
+
+    #hobby{
+        height: 30px;
+        width: 70px;
+        margin-left: 20px;
+    }
+
+    .moreReact > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .morePython > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #moreScrapp > h4{
+        color: white;
+        margin-left: 20px;
+    }
+
+    .moreFootball > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .moreTravel > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #moreCooking > h4{
+        color: white;
+        margin-left: 20px;
+    }
+
+}

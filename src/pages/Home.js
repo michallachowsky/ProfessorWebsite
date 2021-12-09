@@ -12,7 +12,7 @@ function Home() {
         <img src="papier.jpg" alt="" className="kartka"/>
           <div className="Michal">
             
-            <Link to="/aboutMe"><img src="Michal.jpg" alt="" className="przystojniak" id="zoom" /> </Link>
+            <Link to="/aboutMe"><img src="Michal.jpg" alt="" className="przystojniak"  /> </Link>
               
               <div className="description">
                 <h2>

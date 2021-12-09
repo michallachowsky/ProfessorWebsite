@@ -3,7 +3,7 @@ import "./Modal.css";
 
 function Modal({ setOpenModal }) {
   return (
-    <div className="modalBackground">
+    
       <div className="modalContainer">
         <div className="titleCloseBtn">
           <button
@@ -32,7 +32,7 @@ function Modal({ setOpenModal }) {
           </button>
         </div>
       </div>
-    </div>
+    
   );
 }
 
