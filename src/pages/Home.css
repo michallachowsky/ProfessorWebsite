@@ -15,6 +15,7 @@ video {
     border-radius: 10px;
   }
 
+ 
   .przystojniak {
       height: 400px;
       width: 300px;
@@ -120,6 +121,12 @@ video {
     padding: 10px;
     border-radius: 8px;
     font-size:20px;
+    
+  }
+
+  #link1{
+    text-decoration: none;
+    color: white;
   }
 
   .sub1:hover{
@@ -197,6 +204,7 @@ video {
       padding: 10px;
       border-radius: 8px;
       font-size:17px;
+      
     }
 
     .link{
@@ -206,8 +214,7 @@ video {
      margin-right: 200px;
     }
   }
-  
-  
+
 
   @media screen and (max-width: 1230px) {
     .hero-container > h1 {

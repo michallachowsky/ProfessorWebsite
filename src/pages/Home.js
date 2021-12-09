@@ -22,9 +22,9 @@ function Home() {
                   Current courses I teach are:
                 </h2>
                 <div className="subjects">
-                    <div className="sub1">React Basics</div>
-                    <div className="sub2">Python</div>
-                    <div className="sub3">Web scrapping</div>
+                    <div className="sub1"><Link to="/aboutMe" id='link1'>React Basics</Link></div>
+                    <div className="sub2"><Link to="/aboutMe" id='link1'>Python</Link></div>
+                    <div className="sub3"><Link to="/aboutMe" id='link1'>Web scrapping</Link></div>
                 </div>
                 <Link to="/aboutMe" className="link">Read more about me and courses</Link>
               </div>

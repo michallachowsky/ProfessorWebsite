@@ -1,6 +1,6 @@
   .modalContainer {
     margin-top: -150px;
-    margin-left: -150px;
+    margin-left: 100px;
     position: absolute;
     width: 900px;
     height: 400px;
@@ -67,7 +67,7 @@
     .modalContainer {
       width: 700px;
       height: 400px;
-      margin-left: -250px;
+      margin-left: 50px;
     }
     .titleCloseBtn button {
       font-size: 20px;
@@ -80,7 +80,7 @@
     .modalContainer {
       width: 600px;
       height: 400px;
-      margin-left: -200px;
+      margin-left: 50px;
     }
 
   }
@@ -89,7 +89,7 @@
     .modalContainer {
       width: 600px;
       height: 400px;
-      margin-left: -200px;
+      margin-left: 20px;
       margin-top: -100px;
     }
 
@@ -99,7 +99,7 @@
     .modalContainer {
       width: 500px;
       height: 300px;
-      margin-left: -200px;
+      margin-left: 50px;
       margin-top: -100px;
     }
     
