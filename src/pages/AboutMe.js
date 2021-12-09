@@ -19,7 +19,7 @@ function AboutMe() {
         <div className='hero-container'>
             <video src='/videos/back.mp4' autoPlay loop muted />
             <h1>About Me</h1>
-            <img src="deskicon.jpg" alt="" className='ekran'/>
+            <img src="desktop.jpg" alt="" className='ekran'/>
             <div className='it'>
                 <div className='moreReact'>
                     <img src="React.jpg" alt="" className='react' id="hobby"
