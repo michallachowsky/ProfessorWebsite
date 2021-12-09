@@ -63,11 +63,11 @@
     background-color: crimson;
   }
 
-  @media screen and (max-width: 1180px) {
+  @media screen and (max-width: 1230px) {
     .modalContainer3 {
       width: 700px;
       height: 400px;
-      margin-left: -50px;
+      margin-left: -200px;
     }
     .titleCloseBtn3 button {
       font-size: 20px;
@@ -80,7 +80,7 @@
     .modalContainer3 {
       width: 600px;
       height: 400px;
-      margin-left: 0px;
+      margin-left: -200px;
     }
 
   }
@@ -89,7 +89,7 @@
     .modalContainer3 {
       width: 550px;
       height: 400px;
-      margin-left: -100px;
+      margin-left: -200px;
       margin-top: -200px;
     }
 
@@ -99,7 +99,7 @@
     .modalContainer3 {
       width: 450px;
       height: 300px;
-      margin-left: -50px;
+      margin-left: -200px;
       margin-top: -200px;
     }
     
