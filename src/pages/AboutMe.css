@@ -11,7 +11,7 @@
 .it{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .it > h4{
@@ -23,23 +23,23 @@
 
 .moreReact > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .morePython > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 #moreScrapp > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 
 #hobby{
-    height: 80px;
-    width: 150px;
+    height: 160px;
+    width: 300px;
     margin-left: 50px;
     border-radius: 8px;
     margin-top: 100px;
@@ -53,22 +53,22 @@
 .other{
     display: flex;
     margin-top: -70px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .moreFootball > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 .moreTravel > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px;
 }
 
 #moreCooking > h4{
     color: white;
-    margin-left: 80px;
+    margin-left: 160px; 
 }
 
 @media screen and (max-width: 1220px) {
@@ -87,39 +87,39 @@
     }
 
     #hobby{
-        height: 50px;
-        width: 100px;
+        height: 120px;
+        width: 250px;
         margin-left: 20px;
     }
 
     .moreReact > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     .morePython > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     #moreScrapp > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
     .moreFootball > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     .moreTravel > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     #moreCooking > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
 
@@ -142,39 +142,39 @@
     }
 
     #hobby{
-        height: 50px;
-        width: 100px;
+        height: 120px;
+        width: 250px;
         margin-left: 20px;
     }
 
     .moreReact > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     .morePython > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     #moreScrapp > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
     .moreFootball > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     .moreTravel > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
     
     #moreCooking > h4{
         color: white;
-        margin-left: 30px;
+        margin-left: 100px;
     }
 
 }
@@ -196,44 +196,43 @@
     }
 
     #hobby{
-        height: 40px;
-        width: 70px;
+        height: 100px;
+        width: 180px;
         margin-left: 10px;
         margin-top: 110px;
     }
 
     .moreReact > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
     
     .morePython > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
     
     #moreScrapp > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
     .moreFootball > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
     
     .moreTravel > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
     
     #moreCooking > h4{
         color: white;
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
 }
-
 
 @media screen and (max-width: 630px) {
     .hero-container > h1{
@@ -252,39 +251,39 @@
     }
 
     #hobby{
-        height: 30px;
-        width: 70px;
+        height: 80px;
+        width: 150px;
         margin-left:10px;
     }
 
     .moreReact > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     
     .morePython > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     
     #moreScrapp > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
 
     .moreFootball > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     
     .moreTravel > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
     
     #moreCooking > h4{
         color: white;
-        margin-left: 0px;
+        margin-left: 40px;
     }
 
 }
