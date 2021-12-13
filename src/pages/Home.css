@@ -382,3 +382,59 @@ video {
     }
 
   }
+
+  @media screen and (max-width: 560px) {
+    .hero-container > h1 {
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .hero-container > p {
+      font-size: 15px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .kartka{
+      margin-left: 60px;
+      width: 350px;
+      height: 300px;
+    }
+    .przystojniak{
+      margin-top: 70px;
+      height: 100px;
+      width: 70px;
+      margin-left: 70px;
+    }
+
+    .description > h2 {
+      font-size: 8px;
+      width: 200px;
+      height: 110px;
+      margin-left: 30px;
+    }
+    .subjects{
+      margin-left: 10px;
+    }
+    .sub1,.sub2,.sub3{
+      margin-left: 10px;
+      background-color: rgba(14, 13, 13, 0.603);
+      padding: 10px;
+      border-radius: 8px;
+      font-size:10px;
+    }
+
+    .link{
+      width: 170px;
+      margin-top:-20px;
+      font-size: 10px;
+     margin-left: 40px;
+     margin-right: 150px;
+    }
+
+  }
