@@ -80,7 +80,7 @@
     .modalContainer {
       width: 600px;
       height: 400px;
-      margin-left: 50px;
+      margin-left: 0px;
     }
 
   }
@@ -89,8 +89,8 @@
     .modalContainer {
       width: 600px;
       height: 400px;
-      margin-left: 20px;
-      margin-top: -100px;
+      margin-left: 0px;
+      margin-top: -200px;
     }
 
   }
@@ -99,7 +99,25 @@
     .modalContainer {
       width: 500px;
       height: 300px;
-      margin-left: 50px;
+      margin-left: -10px;
+      margin-top: -100px;
+    }
+    
+    .modalContainer .title {
+      font-size: 15px;
+    }
+
+    .modalContainer .body {
+      font-size: 14px;
+    }
+
+  }
+
+  @media screen and (max-width: 490px) {
+    .modalContainer {
+      width: 300px;
+      height: 300px;
+      margin-left: 20px;
       margin-top: -100px;
     }
     

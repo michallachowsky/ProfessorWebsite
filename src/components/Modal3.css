@@ -1,6 +1,6 @@
 .modalContainer3 {
     margin-top: -400px;
-    margin-left: 50px;
+    margin-left: 100px;
     position: absolute;
     width: 900px;
     height: 400px;
@@ -80,7 +80,7 @@
     .modalContainer3 {
       width: 600px;
       height: 400px;
-      margin-left: 50px;
+      margin-left: 0px;
       margin-top: -300px;
     }
 
@@ -101,6 +101,24 @@
       width: 450px;
       height: 300px;
       margin-left: 10px;
+      margin-top: -200px;
+    }
+    
+    .modalContainer3 .title {
+      font-size: 15px;
+    }
+
+    .modalContainer3 .body {
+      font-size: 14px;
+    }
+
+  }
+
+  @media screen and (max-width: 490px) {
+    .modalContainer3 {
+      width: 300px;
+      height: 300px;
+      margin-left: 20px;
       margin-top: -200px;
     }
     

@@ -8,10 +8,14 @@
     z-index: -1;
 }
 
+
+
 .it{
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 
 .it > h4{
@@ -53,7 +57,8 @@
 .other{
     display: flex;
     margin-top: -70px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .moreFootball > h4{
@@ -284,6 +289,62 @@
     #moreCooking > h4{
         color: white;
         margin-left: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 490px) {
+    .hero-container > h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .ekran{
+        margin-top: 120px;
+        width: 570px;
+        height: 300px;
+    }
+
+    .it{
+        margin-top: 0px;
+    }
+
+    #hobby{
+        height: 60px;
+        width: 100px;
+        margin-left:10px;
+    }
+
+    .moreReact > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .morePython > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #moreScrapp > h4{
+        color: white;
+        margin-left: 20px;
+    }
+
+    .moreFootball > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .moreTravel > h4{
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #moreCooking > h4{
+        color: white;
+        margin-left: 20px;
     }
 
 }

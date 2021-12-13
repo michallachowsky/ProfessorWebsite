@@ -1,6 +1,6 @@
 .modalContainer4 {
-    margin-top: -350px;
-    margin-left: -350px;
+    margin-top: -400px;
+    margin-left: -250px;
     position: absolute;
     width: 900px;
     height: 400px;
@@ -67,8 +67,8 @@
     .modalContainer4 {
       width: 700px;
       height: 400px;
-      margin-left: -250px;
-      margin-top: -300px;
+      margin-left: -200px;
+      margin-top: -350px;
       
     }
     .titleCloseBtn4 button {
@@ -82,7 +82,8 @@
     .modalContainer4 {
       width: 600px;
       height: 400px;
-      margin-left: -300px;
+      margin-left: -200px;
+      margin-top: -300px;
     }
 
   }
@@ -101,7 +102,25 @@
     .modalContainer4 {
       width: 450px;
       height: 300px;
-      margin-left: -200px;
+      margin-left: -150px;
+      margin-top: -200px;
+    }
+    
+    .modalContainer4 .title {
+      font-size: 15px;
+    }
+
+    .modalContainer4 .body {
+      font-size: 14px;
+    }
+
+  }
+
+  @media screen and (max-width: 490px) {
+    .modalContainer4 {
+      width: 300px;
+      height: 300px;
+      margin-left: -90px;
       margin-top: -200px;
     }
     
