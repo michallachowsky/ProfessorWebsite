@@ -6,4 +6,126 @@
     margin-top: 30px;
     height: 600px;
     width: 900px;
+    
+}
+
+.reactCourse{
+    margin-top: 40px;
+}
+.reactCourse h1{
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courseDescription{
+    width: 700px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+}
+
+#reactjs{
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 960px) {
+    .notebook{
+        height: 500px;
+        width: 700px;
+    }
+
+    .reactCourse h1{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .courseDescription{
+        width: 550px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .whatweuse{
+        margin-left: 10px;
+    }
+
+    #reactjs{
+        width: 150px;
+        height: 80px;
+        
+        
+    }
+
+
+
+}
+
+@media screen and (max-width: 740px) {
+    .notebook{
+        height: 400px;
+        width: 500px;
+    }
+
+    .reactCourse h1{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .courseDescription{
+        width: 420px;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+
+    #reactjs{
+        width: 120px;
+        height: 60px;
+    }
+
+    .whatweuse{
+        margin-left: 40px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 530px) {
+    .notebook{
+        height: 250px;
+        width: 350px;
+    }
+
+    .reactCourse h1{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .courseDescription{
+        width: 280px;
+        font-size: 9px;
+        margin-left: 30px;
+    }
+
+    #reactjs{
+        width: 70px;
+        height: 30px;
+        margin-top: 10px;
+        
+    }
+
+    .whatweuse{
+        margin-left: 30px;
+    }
+
+
+
 }
