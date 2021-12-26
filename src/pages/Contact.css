@@ -1,0 +1,125 @@
+.contact-container{
+    background-color: rgba(32, 31, 29, 0.719);
+    width: 1000px;
+    height: 550px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.title-contact{
+    font-size: 40px;
+    color: white;
+}
+
+#single{
+    background-color:rgba(70, 59, 59, 0.699);
+    margin-bottom: 50px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.582);
+    padding: 10px;
+}
+
+.top-single{
+    margin-top: 50px;
+}
+
+.contact-info h1{
+    color: rgb(219, 12, 12);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-info h3{
+    color: white;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .contact-container{
+        width: 800px;
+    }
+
+    #single{
+        width: 650px;
+    }
+
+    .contact-info h1{
+        font-size: 30px;
+    }
+
+    .contact-info h3{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 920px) {
+
+    .contact-container{
+        width: 700px;
+    }
+
+    #single{
+        width: 550px;
+    }
+
+    .contact-info h1{
+        font-size: 25px;
+    }
+
+    .contact-info h3{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 790px) {
+
+    .contact-container{
+        width: 550px;
+    }
+
+    #single{
+        width: 400px;
+    }
+
+    .contact-info h1{
+        font-size: 25px;
+    }
+
+    .contact-info h3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .contact-container{
+        width: 350px;
+    }
+
+    #single{
+        width: 300px;
+    }
+
+    .contact-info h1{
+        font-size: 20px;
+    }
+
+    .contact-info h3{
+        font-size: 12px;
+    }
+
+
+}

@@ -73,7 +73,7 @@ function AboutMe() {
                     </div>
 
                     <div id="moreCooking">
-                        <img src="cooking.jpg" alt="" id='cooking' id="hobby"
+                        <img src="cooking.jpg" alt="" className='cooking' id="hobby"
                         onClick={() => {
                             setModalOpen5(true);
                         }}
